@@ -1,0 +1,15 @@
+/
+SQL Datawarehouse Project
+/
+
+USE master;
+
+CREATE DATABASE Datawarehouse;
+
+USE Datawarehouse;
+
+CREATE SCHEMA bronze;
+Go
+CREATE SCHEMA silver;
+Go
+CREATE SCHEMA gold;
